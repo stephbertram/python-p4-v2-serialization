@@ -6,7 +6,6 @@ metadata = MetaData()
 
 db = SQLAlchemy(metadata=metadata)
 
-
 class Pet(db.Model):
     __tablename__ = 'pets'
 
